@@ -1,0 +1,90 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1440px;
+}
+
+.header{
+    margin-top: 24px;
+    height: 70px;
+    width: 1220px;
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    letter-spacing: 0%;
+}
+.header__left{
+    display: flex;
+}
+.nav__list{
+    padding-top: 5px;
+    padding-left: 0px;
+    display: flex;
+    gap: 33px;
+    list-style: none;
+}
+.nav__item__veterinarians{
+    width: 87px;
+}
+.nav__item__how-it-works{
+    width: 88px;
+}   
+.nav__item__about-us{
+    width: 59px;
+} 
+.nav__item__blog{
+    width: 28px;
+}
+.nav__item__shop{
+    width: 32px;
+}
+
+.header__logo{  
+    width: 128px;
+    margin-left: 120px;
+    margin-right: 191px;
+}
+.header__logo img{
+    margin-top: 5px;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header__right button{
+    width: 150px;
+    height: 38px;
+    border: none;
+}
+.button__log{
+    color: #6F1EAA;
+    background-color: transparent;
+}
+.button__log__text{
+    position: relative;
+    top: -2px;
+    left: -5px;
+}
+.button__try{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.2px;
+    letter-spacing: 0%;
+    background-color: #6F1EAA;
+    border-radius: 19px;
+}
