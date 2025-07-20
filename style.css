@@ -140,11 +140,11 @@ body{
 .veterinarians{
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 .veterinarians__container{
     display: flex;  
     width: 1220px;
-    border: 1px solid red;
 }
 .veterinarians__left{
     width: 70%;
@@ -179,7 +179,7 @@ body{
     font-size: 24px;
     line-height: 31.68px;
     letter-spacing: 0%;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
 .patients__text{
     font-weight: 400;
@@ -207,7 +207,7 @@ hr{
     font-weight: 400;
     font-size: 15px;
     line-height: 22.72px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .veterinarians__text{
@@ -215,5 +215,97 @@ hr{
     font-size: 11px;
     line-height: 22.72px;
     letter-spacing: 0%;
+}
+/* #endregion */
+
+/* How it works */
+.how-it-works{
+    padding-top: 25px;
+    background-color: #FAF9F6;  
+}
+.how-it-works__container{
+    width: 1220px;
+    margin: 0px auto;
+}
+.how-it-works__title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    letter-spacing: 0%;
+}
+.how-it-works__items{
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+.how-it-works__item{
+    width: 359px;
+    height: 329px;
+}
+.how-it-works__images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 359px;
+    height: 192px;
+}
+.circle{
+    z-index: 1;
+    position: absolute;
+    align-items: center;
+    width: 192px;
+    height: 192px;
+    background-color: yellow;
+    border-radius: 100%;    
+    text-align: center;
+}
+
+.how-it-works__item-title{
+    color: #6F1EAA;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.68px;
+    letter-spacing: 0%;
+
+}
+.how-it-works__item-subtitle{
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.72px;
+    letter-spacing: 0%  ;
+}
+.how-it-works__small{
+    text-align: center;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22.72px;
+    letter-spacing: 0%;
+
+}
+.button__container{
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+.button__learn-more{
+    width: 166px;
+    height: 48px;
+    border-radius: 33px;
+    background-color: #6F1EAA;
+    border: none;
+}
+.button__learn-more span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
 }
 /* #endregion */
