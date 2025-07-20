@@ -136,3 +136,84 @@ body{
 }
 /* #endregion */
 
+/* #region  veterinarians*/
+.veterinarians{
+    display: flex;
+    justify-content: center;
+}
+.veterinarians__container{
+    display: flex;  
+    width: 1220px;
+    border: 1px solid red;
+}
+.veterinarians__left{
+    width: 70%;
+}
+.veterinarians__left__title{
+    color: #000000;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    letter-spacing: 0%;
+    margin-left: 40px;
+    margin-top: 58px;
+    margin-bottom: 25px;
+}
+.veterinarians__left__title__dog{
+    margin-left: 140px;
+}
+
+.veterinarians__right{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    padding: 37px;
+    padding-left: 50px;
+}
+.patients .tailored-care .support{
+    width: 166px;
+}
+.veterinarians__title{
+    color: #6F1EAA;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.68px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+.patients__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.72px;
+    letter-spacing: 0%;
+    margin-bottom: 17px;
+}
+hr{
+    width: 466px;
+    border-color: #F7A500;
+}
+
+.tailored-care{
+    margin-bottom: 25px;
+}
+.tailored-care__text{ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.72px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+}
+.tailored-cate__post-scriptum{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.72px;
+    margin-top: 10px;
+}
+
+.veterinarians__text{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22.72px;
+    letter-spacing: 0%;
+}
+/* #endregion */
