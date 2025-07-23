@@ -11,26 +11,302 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__left">
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item__veterinarians">Veterinarians</li>
-                    <li class="nav__item__how-it-works">How it works</li>
-                    <li class="nav__item__about-us">About us</li>
-                    <li class="nav__item__blog">Blog</li>
-                    <li class="nav__item__shop">Shop</li>
-                </ul>
-            </nav>  
-        </div>
-        <div class="header__logo">
-            <img src="assets/frame.png" alt="Mixlab-logo">
-        </div>
-        <div class="header__right">
-            <button class="button__log"><span class="button__log__text">Veterinarian login</span></button>
-            <button class="button__try">Try Mixlab</button>
+        <div class="header__container">
+            <div class="header__left">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item__veterinarians">Veterinarians</li>
+                        <li class="nav__item__how-it-works">How it works</li>
+                        <li class="nav__item__about-us">About us</li>
+                        <li class="nav__item__blog">Blog</li>
+                        <li class="nav__item__shop">Shop</li>
+                    </ul>
+                </nav>  
+            </div>
+            <div class="header__logo">
+                <img src="assets/frame.png" alt="Mixlab-logo">
+            </div>
+            <div class="header__right">
+                <button class="button__log"><span class="button__log__text">Veterinarian login</span></button>
+                <button class="button__try">Try Mixlab</button>
+            </div>
+
         </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="info">
+            <div class="info__container">
+                <h1 class="info__container__title">The pet pharmacy<br>humans are jealous of.</h1>
+                <p class="info__container__subtitle">
+                    5 stars on 
+                    <a href="https://www.yelp.com/" class="info__container__link">Yelp</a>
+                    , 
+                    <a href="https://www.google.com/" class="info__container__link">Google</a> 
+                    and 
+                    <a href="https://www.facebook.com/" class="info__container__link">Facebook</a> 
+                    because your<br>best friend deserves only the best in pet care. </p>
+                <button class="button__try">Try Mixlab</button>
+            </div>
+        </section>
+
+
+        <section class="veterinarians">
+            <div class="veterinarians__container">
+                <div class="veterinarians__left">
+                    <h1 class="veterinarians__left__title">We couldn’t find a<br>pharmacy experience<br>worthy of our best buds—<br>so we created one.</h1>
+                    <img class="veterinarians__left__title__dog" src="assets/dog.png" alt="dog">
+                </div>
+                <div class="veterinarians__right">
+                    <div class="patients">
+                        <h2 class="veterinarians__title">Patients first, always</h2>
+                        <p class="patients__text">
+                            We know how stressful it can be when your pet needs meds.
+                            <br> 
+                            That’s why we offer free next-day delivery and even do same-day in NYC and LA. We got you.
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div class="tailored-care">
+                        <h2 class="veterinarians__title">Tailored care</h2>
+                        <p class="tailored-care__text">
+                            We’ll work with you and your veterinarian to find the very best solution for your pet.
+                            With our custom compounded options, we can change the dosage, flavor and form.
+                            We even have a flavor guarantee with over 40 options!
+                        </p>
+                        <p class="tailored-cate__post-scriptum">P.S. Everyone seems to love the chicken-flavored chew treats!</p>
+                    </div>
+
+                    <hr>
+
+                    <div class="support">
+                        <h2 class="veterinarians__title">Support, 7 days a week</h2>
+                        <p class="veterinarians__text">
+                            You’re not alone.
+                            Text, call, or email us 7 days a week—we’ll answer and do our best to sprinkle in a bit of sunshine. ☀️
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="how-it-works__container">
+                <h2 class="how-it-works__title">How it works</h2>
+                <div class="how-it-works__items">
+                    <div class="how-it-works__item">
+                        <div class="how-it-works__images">
+                            <div class="circle"></div>
+                            <div class="how-it-works__image">
+                                <img src="assets/how-it-works img/parrot__cartoon.png" alt="parrot-cartoon" style="z-index: 2; position: relative;">
+                            </div>
+                        </div>
+                        <h2 class="how-it-works__item-title">We receive your prescription</h2>
+                        <p class="how-it-works__item-subtitle">
+                            Either your veterinarian sends us a prescription or we
+                            reach out to them for you. Whatever is easiest!
+                        </p>
+                    </div>
+
+                    <div class="how-it-works__item">
+                        <div class="how-it-works__images">
+                            <div class="circle"></div>
+                            <img src="assets/how-it-works img/rabitt_cartoon.png" alt="parrot-cartoon" style="z-index: 2; position: relative;">
+                        </div>
+                        <h2 class="how-it-works__item-title">We deliver your care package</h2>
+                        <p class="how-it-works__small">
+                            Fast and free next-day delivery, straight to your door. 
+                            Same-day in NYC and LA.
+                        </p>
+                    </div>
+
+                    <div class="how-it-works__item">
+                        <div class="how-it-works__images">
+                            <div class="circle"></div>
+                            <img src="assets/how-it-works img/dog__cartoon.png" alt="parrot-cartoon" style="z-index: 2; position: relative;">
+
+                        </div>
+                        <h2 class="how-it-works__item-title">You treat your pet</h2>
+                        <p class="how-it-works__small">
+                            Give your pet the care they need to feel better. 
+                            Plus they can play with our included toy!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="button__container">
+                <button class="button__learn-more"><span>Learn More</span></button>
+            </div>
+        </section>
+
+
+        <section class="about-us">
+            <div class="about-us__container">
+                <div class="about-us__left">
+                    <img src="assets/human.png" alt="human">
+                </div>
+                <div class="about-us__right">
+                    <div class="about-us__right__container">
+                        <h3 class="about-us__title">For Veterinarians</h3>
+                        <p class="about-us__subtitle">We're here to support you<br>and your practice</p>
+                        <p class="about-us__info">
+                            Mixlab offers a simple, fast, reliable (and fun) home delivery pharmacy service for your clients. 
+                            No more delays, no more miscommunications, no more grumpy pets. 
+                            It’s time to partner with a pharmacy that cares about customer experience as much as you do.
+                        </p>
+                        <button class="button__learn-more"><span>Learn More</span></button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="blog">
+            <div class="blog__container">
+                <h1 class="blog__title">Pets love Mixlab!</h1>
+                <p class="blog__link">
+                    See why we're 5 stars on 
+                    <a href="https://www.yelp.com/" class="blog__link-item">Yelp</a>, 
+                    <a href="https://www.google.com/" class="blog__link-item">Google</a> and 
+                    <a href="https://www.facebook.com/" class="blog__link-item">Facebook</a>:)
+                </p>
+                <div class="blog__slide">
+                    <div class="blog__slide-left">
+                        <img src="assets/dog__blog.png" alt="">
+                    </div>
+                    <div class="blog__slide-right">
+                        <p class="blog__slide-right__text">
+                            “Tootsie just received her Mixlab order and she’s so excited for it! 
+                            Within two hours of ordering it got delivered to the house and its like she knew it was at the door. 
+                            She absolutely hates taking her medicine but she truly loves her Mixlab box because it’s so informative, quick, easy to order but especially because includes a new toy each time! 
+                            Thank you Mixlab for always taking care of her! She can’t wait to place her next order now!”
+                        </p>
+                        <div class="blog__slide-right__bottom">
+
+                            <p class="blog__slide-right__bottom__text">Tootsie, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="shop">
+            <div class="shop__container">
+                <h2 class="shop__title">In the Wild</h2>
+                <p class="shop__info">
+                    In The Wild is a collection of pieces to help close the communication gap, 
+                    while growing the love (and understanding) between you and your best pal.
+                </p>
+                <div class="shop__content">
+                    <div class="content">
+                        <img src="assets/content__l.png" alt="">
+                        <p class="content__date">May 3, 2021</p>
+                        <h1 class="content__title">What is compounding?</h1>
+                        <p class="content__subtitle">Compounding is the art and science of preparing personalized medications.</p>
+                        <a href="" class="content__link">Read the article</a>
+                    </div>
+                    <div class="content">
+                        <img src="assets/content__r.png" alt="">
+                        <p class="content__date">June 15, 2021</p>
+                        <h1 class="content__title">Anxiety in Pets</h1>
+                        <p class="content__subtitle" style="margin-bottom: 50px;">An interview with a top behavioral specialist in NYC.</p>
+                        <a href="" class="content__link">Read the article</a>
+                    </div>
+                </div>
+                <button class="button__learn-more" style="margin: 60px auto; display: block;"><span>Learn More</span></button>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__companies">
+            <img src="assets/company__logo/1.png" alt="">
+            <img src="assets/company__logo/2.png" alt="">
+            <img src="assets/company__logo/3.png" alt="">
+            <img src="assets/company__logo/4.png" alt="">
+            <img src="assets/company__logo/5.png" alt="">
+        </div>
+        <div class="footer__container">
+            <div class="quick__links">
+                <p class="paragraph">Quick Links</p>
+                <nav class="">
+                    <ul class="list">
+                        <li class="list__item">Veterinarians</li>
+                        <li class="list__item">Products    </li>
+                        <li class="list__item">How it Works</li>
+                        <li class="list__item">About us</li>
+                        <li class="list__item">Blog</li>
+                        <li class="list__item">Shop</li>
+                        <li class="list__item">Careers</li>
+                        <li class="list__item">Veterinarian login</li>
+                        <li class="list__item">Contact us</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="call-or-text">
+                <p class="paragraph">Call or Text</p>
+                <ul class="list">
+                    <li class="list__item">(888) 901-4480</li>
+                </ul>
+                <p class="paragraph">Email</p>
+                <ul class="list">
+                    <li class="list__item">hello@mixlabrx.com</li>
+                </ul>
+                <p class="paragraph">Fax</p>
+                <ul class="list">
+                    <li class="list__item">(212) 967-0892</li>
+                </ul>
+            </div>
+            <div class="new-york-city">
+                <p class="paragraph">New York City</p>
+                <ul class="list">
+                    <li class="list__item">
+                        336 West 37th St
+                        <br>
+                        Suite 850
+                        <br>
+                        New York, NY 10018
+                    </li>
+                    <li class="list__item">
+                        Mon-Sat 10am - 8pm ET
+                        <br>
+                        Sun 10am - 2pm ET
+                    </li>
+                </ul>
+            </div>            
+            <div class="los-angeles">
+                <p class="paragraph">Los Angeles</p>
+                <ul class="list">
+                    <li class="list__item">
+                        2223 Federal Ave
+                        <br>
+                        Los Angeles, CA 90064
+                    </li>
+                    <li class="list__item">
+                        Mon-Sat 9am - 7pm PT
+                        <br>
+                        Sun 9am - 1pm PT
+                    </li>
+                </ul>
+            </div>            
+            <div class="social">
+                <p class="paragraph">SOCIAL</p>
+                <div class="social__img">
+                    <img src="assets/footer/1.png" alt="">
+                    <img src="assets/footer/2.png" alt="">
+                    <img src="assets/footer/3.png" alt="">
+                    <img src="assets/footer/4.png" alt="">
+                    <img src="assets/footer/5.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer__info">
+            <p>2021 Mixlab, Inc.</p>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+        </div>
+    </footer>
 </body>
 </html>
