@@ -421,10 +421,11 @@ hr{
 }
 /* #endregion */
 
+/* #region shop */
 .shop__container{
     width: 1220px;
     margin: 0 auto;
-    border: 1px solid red;
+    border: 1px solid transparent;
 }
 .shop__title{
     text-align: center;
@@ -489,3 +490,60 @@ hr{
     color: #6F1EAA;
     text-decoration: none;
 }
+/* #endregion */
+
+/* #region footer */
+footer{
+    background-color: #48156D;
+}
+.footer__container{
+    width: 1220px;
+    display: flex;
+    gap: 80px;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-left: 340px;
+}
+.footer__companies{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    background-color: #6F1EAA;
+    padding: 40px 0px 24px 0px;
+}
+
+.paragraph{
+    color: #C282F0;
+    text-align: left;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+}
+.list{
+    padding: 0;
+    margin-top: 18  px;
+}
+.list__item{
+    list-style: none;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #FFFFFF;
+}
+.social__img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 130px;
+    margin-top: 20px;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+}
+/* #endregion */
