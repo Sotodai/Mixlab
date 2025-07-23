@@ -1,1 +1,1 @@
-https://github.com/Sotodai/Mixlab/
+https://Sotodai.github.io/Mixlab/
